@@ -102,18 +102,18 @@ margin-top:-20px;
 
 }
 .border{
-  margin-left:40px;
-  margin-right:70px;
+
+  margin-right:100px;
 }
 .navbar{
   margin-right:-30px;
 }
 .homeimg{
-  width: 1270px;
+  width: 100vw;
   height:600px;
 }
 .aboutdesign{
-  width: 1270px;
+  width: 100vw;
   position:absolute;
 top:790px;
 left:-50px;
@@ -410,7 +410,7 @@ color:rgb(253,25,136);
   font-family:  "Times New Roman", Times, serif;
 }
 .design2{
-  width: 1220px;
+  width: 95vw;
   height:340px;
 
 }
@@ -456,6 +456,7 @@ color:rgb(253,25,136);
   border-radius:10%;
   margin-top:30px;
   margin-left:50px;
+  
 }
 .label4{
   font-size:100px;
