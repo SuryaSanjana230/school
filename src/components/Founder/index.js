@@ -6,21 +6,22 @@ export const Founder = () => {
   return (
     <>
     <section>
+    
     <p className="aboutstyle5">About Our Founder</p>
       <div className="container">
         <div className="row">
           <div className="col-md-6">
             <Carousel className="mainslide"  autoPlay 
               interval={3000} 
-              infiniteLoop showThumbs={false}>
+              infiniteLoop showThumbs={false} showStatus={false}>
               <div>
-                <img src="./images/person1.jpg" alt="Person 1" height="400px" width="600px" />
+                <img src="./images/person1.jpg" alt="" height="400px" width="600px" />
               </div>
               <div>
-                <img src="./images/person2.jpg" alt="Person 2" height="400px" width="600px" />
+                <img src="./images/person2.jpg" alt="" height="400px" width="600px" />
               </div>
               <div>
-                <img src="./images/person3.jpg" alt="Person 3" height="400px" width="600px" />
+                <img src="./images/person3.jpg" alt="" height="400px" width="600px" />
               </div>
             </Carousel>
           </div>
@@ -38,7 +39,7 @@ export const Founder = () => {
   <p className="aboutstyle3">Sarah believes in the power of play-based learning and incorporates a variety of interactive activities to stimulate cognitive and social development.</p>
   </div>
   <div className="col-md-6">
-  <Carousel className="mainslide" showThumbs={false}   autoPlay 
+  <Carousel className="mainslide" showThumbs={false} showStatus={false}  autoPlay 
               interval={3000} 
               infiniteLoop>
               <div>
@@ -55,8 +56,11 @@ export const Founder = () => {
 </div>
 </div>
 <div className="aboutstyle5">Our History</div>
+<div className="container">
 <p className="aboutstyle3" id="marginleft">Oasis Preschool was established in 2010 by Jane Smith and John Doe, two passionate educators with a shared dream of creating a nurturing and innovative learning environment for young children. Their journey began with a simple yet profound vision: to provide a preschool experience that balances academic excellence with social and emotional development.</p>
+</div>
 </section>
   </>
   );
 };
+

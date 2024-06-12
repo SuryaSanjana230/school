@@ -1,10 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
-
-
-
-
 export const Gallery =()=>{
   return(
 <>
@@ -12,7 +8,7 @@ export const Gallery =()=>{
 <p className="aboutstyle1">Discover the Joy of Learning at Oasis Preschool!</p>
 <img src="./images/schooldesign.jpg" alt="" className="schooldesign"/>
 <Carousel className="mainslide2"  autoPlay 
-              interval={1000} 
+              interval={1000} showStatus={false}
               infiniteLoop showThumbs={false}>
               <div>
                 <div className="container">

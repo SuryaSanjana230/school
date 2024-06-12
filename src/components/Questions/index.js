@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-
-
 import 'font-awesome/css/font-awesome.min.css';
+
+
 const faqData = [
   {
     question: 'Where are we located?',
@@ -23,12 +23,9 @@ const faqData = [
     question: 'Are there any additional fees?',
     answer: 'There is a one-time registration fee and an annual materials fee. These fees help cover administrative costs and supplies for the classroom.',
   },
-  
 ];
 
 export const Questions = () => {
-
-   
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -37,7 +34,6 @@ export const Questions = () => {
 
   return (
     <>
-  
       <p className="aboutstyle11">Frequently Asked Questions</p>
       <p className="aboutstyle12">Solve your doubts</p>
       <section className="faqstyle">
@@ -54,19 +50,7 @@ export const Questions = () => {
             </div>
           </div>
         ))}
-
-
-
-
-
-
       </section>
-
-
-
-
-
-
     </>
   );
 };

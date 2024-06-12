@@ -7,7 +7,7 @@ export const Programs=()=>{
 <div className="container">
 <div className="row">
 
-<div className="col-4 card" id="card1">
+<div className="col-4 card" id="card2">
 
 <div className="card-body">
 <p className="card-text">
@@ -17,14 +17,14 @@ export const Programs=()=>{
 
  <div className="cardtext2">A preschool also known as nursery school, pre-primary school, play school or creche, is an educational establishment or learning space offering early childhood education to children </div>
     
- <button className="btn btn-outline-success" type="submit" id="buttonstyle1" >
+ <button className="btn btn-outline-success" type="submit" id="buttonstyle2" >
            Learn More
          </button>
 </p>
 </div>
 </div>
 
-<div className="col-4 card" id="card1">
+<div className="col-4 card" id="card2">
 
 <div className="card-body">
 <p className="card-text">
@@ -34,7 +34,7 @@ export const Programs=()=>{
 
  <div className="cardtext2">A preschool also known as nursery school, pre-primary school, play school or creche, is an educational establishment or learning space offering early childhood education to children </div>
     
- <button className="btn btn-outline-success" type="submit" id="buttonstyle1" >
+ <button className="btn btn-outline-success" type="submit" id="buttonstyle2" >
            Learn More
          </button>
 </p>
@@ -42,7 +42,7 @@ export const Programs=()=>{
 </div>
 
 
-<div className="col-4 card" id="card1">
+<div className="col-4 card" id="card2">
 
 <div className="card-body">
 <p className="card-text">
@@ -52,7 +52,7 @@ export const Programs=()=>{
 
  <div className="cardtext2">A preschool also known as nursery school, pre-primary school, play school or creche, is an educational establishment or learning space offering early childhood education to children </div>
     
- <button className="btn btn-outline-success" type="submit" id="buttonstyle1" >
+ <button className="btn btn-outline-success" type="submit" id="buttonstyle2" >
            Learn More
          </button>
 </p>
@@ -92,6 +92,7 @@ export const Programs=()=>{
 </div>
 </div>
 </div>
+
 <img src="./images/design2.jpg" alt="" className="design2"/>
 </section>
 
@@ -104,19 +105,19 @@ export const Programs=()=>{
     <div className="col-4">
       <figure>
 
-<img src="./images/art.jpg" alt=" " />
+<img src="./images/art.jpg" alt=" " className="circleimg"/>
 <figcaption className="label">Art</figcaption>
 </figure>
 </div>
 <div className="col-4">
   <figure>
-<img src="./images/learning.jpg" alt=" " />
+<img src="./images/learning.jpg" alt=" " className="circleimg"/>
 <figcaption className="label1">Learning</figcaption>
 </figure>
 </div>
 <div className="col-4">
   <figure>
-<img src="./images/language.jpg" alt=" " />
+<img src="./images/language.jpg" alt=" " className="circleimg" />
 <figcaption className="label2">Language Classes</figcaption>
 </figure>
 </div>

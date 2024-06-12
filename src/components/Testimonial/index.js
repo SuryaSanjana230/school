@@ -7,8 +7,9 @@ export const Testimonial=()=>{
 <>
 <section>
 <div className="heading">What Our Parents Say?</div>
+<div className="container">
 <Carousel  showThumbs={false}  autoPlay 
-              interval={3000} 
+              interval={3000} showStatus={false}
               infiniteLoop className="border">
               <div>
   <div className="conatiner">
@@ -72,7 +73,9 @@ export const Testimonial=()=>{
   </div>
               </div>
             </Carousel>
+            </div>
             </section>
+            
 </>
   );
 }
