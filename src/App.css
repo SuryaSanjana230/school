@@ -94,9 +94,13 @@ display:flex;
     margin-left:-200px;
   }
 
+#homeimg{
+  height:300px;
 
+}
  
 }
+
 @media(min-width:768px) and (max-width:768px){
 .logo{
   height:80px;
@@ -243,7 +247,7 @@ display:flex;
     background-color: rgb(107, 45, 188);
     text-align: center;
     padding: 20px;
-    margin-top:-100px;
+    margin-top:-140px;
   }
 
   #side {
