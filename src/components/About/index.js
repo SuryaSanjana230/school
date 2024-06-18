@@ -5,8 +5,8 @@ export const About=()=>{
    
     <>
   <section id="About" >
-     <div className="container"></div>
-      <p className="aboutstyle1">About Us</p>
+     <div className="container">
+      <p className="aboutstyle1">About Us</p></div>
 
 <img src="./images/homedesign.jpg" alt="" className="aboutdesign" />
 <div className="aligncenter">
