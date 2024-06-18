@@ -222,7 +222,7 @@ display:flex;
 #buttonstyle1 {
   background-color: rgb(253, 25, 136);
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   border: none;
   border-radius: 10px;
   padding: 5px;
@@ -248,6 +248,9 @@ display:flex;
 
   #side {
     margin-bottom: 20px;
+  }
+  #buttonstyle1{
+    font-size:15px;
   }
 }
 
